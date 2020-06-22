@@ -13,6 +13,7 @@ class Cat:
     def info(self):
         return self.name, self.gender
 
+
 Cat.family = 'Сфинкс'
 new_cat = Cat('Linda', 'female')
 new_cat.name = 'Sendy'
